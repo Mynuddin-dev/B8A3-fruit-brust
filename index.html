@@ -8,7 +8,14 @@
     <!-- taiwind and daisy UI  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
-        <!-- tailwind custom style  -->
+
+
+    <script src="https://kit.fontawesome.com/59d3502ce1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- tailwind custom style  -->
     <script>
         tailwind.config = {
           theme: {
@@ -32,8 +39,33 @@
 
     </main>
 
-    <footer>
-        
+    <footer class="footer footer-center p-10 md:p-24  bg-black text-white text-base-content">
+
+        <div class="flex items-center">
+            <img class="h-8 md:h-10" src="images/logo.png" alt="Logo">
+            <a class="btn btn-ghost normal-case text-2xl lg:text-4xl text-white">Fruit
+                Burst</a>
+        </div>
+        <div class="flex flex-wrap justify-center gap-7">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover  justify-end">Support</a>
+            <a class="link link-hover  justify-start">My Account</a>
+
+        </div>
+        <div>
+            <div class="grid grid-cols-6 gap-4">
+                <i class="fa-brands fa-twitter fa-2xl text-[#2563eb]"></i>
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+                <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                <i class="fa-brands fa-instagram fa-2xl text-[#ef4444]"></i>
+                <i class="fa-brands fa-apple fa-2xl"></i>
+            </div>
+        </div>
+ 
     </footer>
     
 </body>
